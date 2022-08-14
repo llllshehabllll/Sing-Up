@@ -1,0 +1,176 @@
+ body{
+    background-image: url(./alahly4.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'PT Sans', sans-serif;
+        font-size: 16px;
+        color: rgb(251, 245, 245);
+            height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 50px;
+
+}
+
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"); */
+
+/* :root {
+    --white: white;
+    --red: red;
+    --green: green;
+} */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+/* body {
+    font-family: Roboto;
+    font-size: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    /* color: var(--white); */
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    height: 600px;
+    width: 500px;
+    min-width: 270px;
+    /*background-color: rgba(90, 46, 173, 0.332);
+    */background: rgba(128, 128, 128, 0.44);
+    border-radius: 50px;
+    padding: 18px;
+    margin-top: 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+form {
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+}
+
+.form-control {
+    margin: 40px 0px;
+    width: 100%;
+    position: relative;
+}
+
+.form-control label {
+    position: absolute;
+    /* color: var(--white); */
+    top: -8px;
+    display: block;
+    /* width:100%; */
+    box-sizing: border-box;
+}
+
+input {
+    /* background-color: transparent; */
+    outline: none;
+    border: 50px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid white;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    /* padding: 12px 0px 0px 0px; */
+    color: rgb(255, 225, 0);
+}
+
+input:focus,
+input:valid {
+    background-color: transparent ;
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.511);
+}
+
+.btn {
+    display: block;
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.56);
+    border-radius: 60px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+
+/* .btn:active {
+    border: none;
+    outline: none;
+    transform: scale(0.95);
+} */
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label span {
+    font-size: 12px;
+    min-width: 5px;
+    display: inline-block;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control input:focus + label span {
+    color: rgb(0, 217, 250);
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+
+/* form validation  css  */
+.form-control small {
+    visibility: hidden;
+    display: block;
+}
+
+.form-control.error small {
+    color: rgb(217, 250, 6);
+    visibility: visible;
+}
+
+/* .form-control.success small {
+    color: rgb(14, 247, 138);
+    visibility: visible;
+} */
